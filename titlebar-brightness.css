@@ -1,0 +1,13 @@
+.visual-refresh div.bar_c38106::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgb(0, 0, 0, var(--titlebar-brightness, 0.7));
+    pointer-events: none;
+    z-index: 0;
+}
+
+.visual-refresh div.bar_c38106 > * {
+    position: relative;
+    z-index: 1;
+}
